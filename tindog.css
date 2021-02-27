@@ -1,0 +1,196 @@
+/*body*/
+
+body {
+    font-family: Montserrat;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*title*/
+
+#title {
+    background-color: tomato;
+    position: relative;
+    padding-bottom: 8rem;
+}
+
+.title-image {
+    width: 25%;
+    transform: rotate(25deg);
+    margin-left: 5rem;
+    position: absolute;
+}
+
+h1 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 3rem;
+    line-height: 1.5rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.container-fluid {
+    padding-top: 2.4rem;
+}
+
+.row {
+    padding: 4rem;
+}
+
+
+}
+.button1 {
+    padding-right: 1rem;
+}
+.nav-item {
+    padding: 18px;
+}
+.nav-link {
+    font: 1.2rem;
+    font-weight: 400;
+}
+
+/*features*/
+.icon {
+    margin-bottom: 20px;
+    color: tomato;
+}
+.icon:hover {
+    color: salmon;
+}
+.text {
+    text-align: center;
+}
+.features {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+#features {
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+p {
+    color: darkslategrey;
+}
+h3 {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    line-height: 1.5rem;
+}
+
+/*testimonials*/
+#testimonials {
+    text-align: center;
+    background-color: salmon;
+}
+.carousel-item {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h2 {
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    line-height: 1.5rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    color: white;
+}
+.testimonial-image1 {
+    width: 45%;
+    border-radius: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.testimonial-image2 {
+    width: 35%;
+    border-radius: 100%;
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+}
+
+/*press*/
+#press {
+    background-color: salmon;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.pressimage {
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    text-align: center;
+    width: 4rem;
+}
+
+/*pricing*/
+.card-title {
+    color: black;
+    font-size: 2rem;
+    font-family: 'Montserrat';
+}
+#pricing {
+    text-align: center;
+    background-color: rgb(241, 167, 241);
+}
+.price {
+    color: black;
+    font-size: 1.6rem;
+}
+.pricingmain {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.card-title {
+    color: white;
+}
+
+/*mediaqurey*/
+@media(max-width:991px) {
+    .title-image {
+        transform: rotate(0);
+        padding-top: 2rem;
+    }
+    
+    h1,
+    h2 {
+        text-align: center;
+    }
+    
+    .button1 {
+        padding-right: 2rem;
+        text-align: center;
+    }
+    
+    .button2 {
+        text-align: center;
+    }
+}
+#footer {
+    background-color: rgb(241, 248, 176);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer {
+    padding-bottom: 10%;
+    color: black;
+}
+.footerp {
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+.btn:hover {
+    color: purple;
+}
